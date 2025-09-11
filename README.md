@@ -32,6 +32,12 @@ git clone https://github.com/aadipatodia/Roll-the-Dice-Game.git
 cd Roll-the-Dice-Game
 yarn install
 ```
+or
+```bash
+git clone https://github.com/aadipatodia/Roll-the-Dice-Game.git
+cd Roll-the-Dice-Game
+npm install
+```
 ## 🚀 Running the App
 
 ### Start Metro Bundler
@@ -39,17 +45,30 @@ yarn install
 ```bash
 yarn start
 ```
+or
+```bash
+npm start
+```
 
 ### Launch on Android
 ```bash
 yarn android
 ```
+or
+```bash
+npm android
+```
 ### Launch on iOS
 ```bash
 yarn ios
 ```
+or
+```bash
+npm ios
+```
 
 ### 📁 Project Structure
+```bash
 Roll-the-Dice-Game/
 ├── android/               # Android native files
 ├── ios/                   # iOS native files
@@ -61,7 +80,7 @@ Roll-the-Dice-Game/
 ├── index.js               # Entry point
 ├── package.json           # Dependencies and scripts
 └── tsconfig.json          # TypeScript configuration
-
+```
 
 ## 🛠️ Technologies Used
 
